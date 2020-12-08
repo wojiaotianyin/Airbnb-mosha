@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <title>Airbnb-movie</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+</head>
+
+<body>
+    <main>
+        <header class="d-flex justify-content-between">
+            <div class="header-logo">
+                <a href="#">
+                    <svg aria-hidden="true" style="height:2rem;width:2rem;display:block;color:#fff;"
+                        focusable="false" data-prefix="fab" data-icon="airbnb" class="svg-inline--fa fa-airbnb fa-w-14"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                            d="M224 373.12c-25.24-31.67-40.08-59.43-45-83.18-22.55-88 112.61-88 90.06 0-5.45 24.25-20.29 52-45 83.18zm138.15 73.23c-42.06 18.31-83.67-10.88-119.3-50.47 103.9-130.07 46.11-200-18.85-200-54.92 0-85.16 46.51-73.28 100.5 6.93 29.19 25.23 62.39 54.43 99.5-32.53 36.05-60.55 52.69-85.15 54.92-50 7.43-89.11-41.06-71.3-91.09 15.1-39.16 111.72-231.18 115.87-241.56 15.75-30.07 25.56-57.4 59.38-57.4 32.34 0 43.4 25.94 60.37 59.87 36 70.62 89.35 177.48 114.84 239.09 13.17 33.07-1.37 71.29-37.01 86.64zm47-136.12C280.27 35.93 273.13 32 224 32c-45.52 0-64.87 31.67-84.66 72.79C33.18 317.1 22.89 347.19 22 349.81-3.22 419.14 48.74 480 111.63 480c21.71 0 60.61-6.06 112.37-62.4 58.68 63.78 101.26 62.4 112.37 62.4 62.89.05 114.85-60.86 89.61-130.19.02-3.89-16.82-38.9-16.82-39.58z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <ul class="header-nav nav">
+                <li><a href="#"><i class="fas fa-globe"></i>日本語(JP)</a></li>
+                <li><a href="#"><i class="fas fa-yen-sign"></i>JPY</a></li>
+                <li><a href="#">ホストをはじめる</a></li>
+                <li><a href="#">ヘルプ</a></li>
+                <li><a href="#">登録する</a></li>
+                <li><a href="#">ログイン</a></li>
+            </ul>
+        </header>
+        <div class="wrap-video">
+            <div class="texts-and-mail">
+                <h1>世界の果てまで、アットホーム</h1>
+                <a href="" class="text-white">Airbnbビジネスプログラムの動画を見る<i class="fas fa-caret-right"></i></a>
+
+                <p class="mt-4">まずは仕事用メールアドレスの入力から</p>
+                <input type="email" class="mail-box" id="email" name="email">
+                <button class="mail-button"><a href="">メールアドレスを追加</a></button>
+
+                <p class="mt-2 font-weight-lighter">出張管理をご担当ですか？
+                    <a href="" class="more text-white">もっと詳しく&gt;</a></p>
+            </div>
+            <video src="Yoga - 445.mp4" loop autoplay muted></video>
+            <button class="button-2">再生&ensp;<i class="fas fa-caret-right fa-2x"
+                    style="vertical-align: sub;"></i></button>
+        </div>
+        <div class="container">
+            <h2 class="text-center mt-5 mb-4">最高の仕事に必要なものすべてを完備</h2>
+            <div class="three-row-pics row text-center">
+                <div class="col-4 mx-0 p-0">
+                    <img src="images/sample1.jpg" alt="image-pic" width="325" height="333">
+                    <p class="mt-3">高評価の宿泊先＆デザイナーズホテル</p>
+                </div>
+                <div class="col-4 mx-0 p-0">
+                    <img src="images/sample2.jpg" alt="image-pic" width="325" height="333">
+                    <p class="mt-3">チームビルディング体験</p>
+                </div>
+                <div class="col-4 mx-0 p-0">
+                    <img src="images/sample3.jpg" alt="image-pic" width="325" height="333">
+                    <p class="mt-3">コラボを育むスペース</p>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="full-width over-flow">
+                <div class="d-flex flex-reverse mt-5">
+                    <div class="col-5">
+                        <img src="images/sample4.jpg" alt="" width="519" height="500">
+                    </div>
+                    <div class="col-7 bg-light word" style="background: rgb(214, 214, 214);">
+                        <h2>出張先でも、アットホーム</h2>
+                        <p>出張のときも、新天地に異動のときも安心。他の出張者が5つ星評価をつけたお部屋やデザイナーズホテルを探しましょう。</p>
+                        <a href="" style="color:rgb(0, 108, 112);">仕事用スペースを完備した宿泊先を検索&ensp;&gt;</a>
+                    </div>
+                </div>
+                <div class="d-flex flex-row-reverse my-4 second">
+                    <div class="col-5">
+                        <img src="images/sample5.jpg" alt="" width="519" height="500">
+                    </div>
+                    <div class="col-7 word" style="background: rgb(0, 108, 112);color:#fff;">
+                        <h2>チームの心をひとつに</h2>
+                        <p>ラーメン作り教室やカヌーレッスンに参加。普段オフィスでは目にできない同僚たちの意外な面に触れ、深いレベルでつながれます。</p>
+                        <a href="" class="text-white">Airbnbの「体験」を検索&ensp;&gt;</a>
+                    </div>
+                </div>
+                <div class="d-flex third">
+                    <div class="col-5">
+                        <img src="images/sample6.jpg" alt="" width="519" height="500">
+                    </div>
+                    <div class="col-7 word" style="background: rgb(214, 214, 214);">
+                        <h2>創造力をかきたてるスペース</h2>
+                        <p>煮詰まったら1日オフサイトで気分を変えてみませんか？ひらめきが湧く環境で、チームの生産性を高めましょう。</p>
+                        <a href="" style="color:rgb(0, 108, 112);">Wi-Fi完備の宿泊先を見る&ensp;&gt;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="over-flow1 d-flex justify-content-around p-5 my-5">
+            <div class="w-25">
+                <p class="big">
+                    安全第一のシステム
+                </p>
+                <p>セキュアな支払いシステムから経験者のレビューまで、Airbnbは安全中心のシステムです。</p>
+                <a href="" class="text-white">もっと詳しく&ensp;&gt;</a>
+            </div>
+            <div class="w-25">
+                <p class="big">
+                    グローバルカスタマーサポート
+                </p>
+                <p>専門スタッフが、年中無休で営業時間内に11言語でサポートいたします。</p>
+                <a href="" class="text-white">もっと詳しく&ensp;&gt;</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col">
+                    <img src="images/sample7.jpg" alt="" width="519" height="500">
+                </div>
+                <div class="col last-col" style="padding: 10%;">
+                    <p style="font-size: 20px;line-height: 2;">
+                        「Airbnbは自活できるのがいいですね。毎晩外食しなくても、みんなで好きなものを料理できるし、とても出張とは思えないほど現地に根を下ろせます」</p>
+                    <b>MARTA KUTT様</b>
+                    <p>Transferwise社マネジャー</p>
+                </div>
+            </div>
+        </div>
+        <div class="second-mail text-center p-5 mt-5" style="color: #484848;background: rgb(214, 214, 214);">
+            <h2 class="font-weight-light" style="font-size: 46px;">働き方を変えたいなら、Airbnbです</h2>
+            <div class="pointer d-inline-block text-left">
+                <p class="mt-4"><b>まずは仕事用メールアドレスの入力から</b></p>
+                <input type="email" class="mail-box2" id="email" name="email">
+                <button class="mail-button2"><a href="">メールアドレスを追加</a></button>
+                <hr>
+            </div>
+            <div class="latter mt-5">
+                <b>出張管理をご担当ですか？</b><br>
+                こんなにある、Airbnbビジネスプログラム法人企業様のメリット。<br>
+                <a href="" style="color: rgb(0, 108, 112);">もっと詳しく&ensp;&gt;</a>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-light justify-content-lg-between px-5">
+        <div class="inside d-lg-flex d-md-inline-block pt-5 m-0">
+            <ul>
+                <li><b>企業情報</b></li>
+                <li><a href="">Airbnbのご利用方法</a></li>
+                <li><a href="">ニュースルーム</a></li>
+                <li><a href="">Airbnb Plus</a></li>
+                <li><a href="">Airbnb Luxe</a></li>
+                <li><a href="">HotelTonight</a></li>
+                <li><a href="">Airbnbビジネスプログラム</a></li>
+                <li><a href="">オリンピック</a></li>
+                <li><a href="">採用情報</a></li>
+            </ul>
+            <ul>
+                <li><b>コミュニティ</b></li>
+                <li><a href="">ダイバーシティ＆ビロンギング</a></li>
+                <li><a href="">アクセシビリティ対応</a></li>
+                <li><a href="">Airbnbアソシエイト</a></li>
+                <li><a href="">お友達を招待</a></li>
+                <li><a href="">Airbnb.org</a></li>
+            </ul>
+            <ul>
+                <li><b>ホスト</b></li>
+                <li><a href="">お部屋を掲載</a></li>
+                <li><a href="">オンライン体験をホストする</a></li>
+                <li><a href="">体験をホストする</a></li>
+                <li><a href="">責任あるホスティング</a></li>
+                <li><a href="">リソースセンター</a></li>
+                <li><a href="">コミュニティセンター</a></li>
+            </ul>
+            <ul>
+                <li><b>サポート</b></li>
+                <li><a href="">Airbnbの新型コロナウイルスに対する取り組み</a></li>
+                <li><a href="">ヘルプセンター</a></li>
+                <li><a href="">キャンセルオプション</a></li>
+                <li><a href="">近隣コミュニティサポート</a></li>
+                <li><a href="">信頼＆安全</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="d-lg-flex py-5">
+            <div class="mr-auto" style="font-size: 14px;">
+                <a href="">Airbnb Global Services Limited<br>
+                    観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</a><br>
+                &copy;2020 Airbnb, Inc. All rights reserved&nbsp;・&nbsp;<a href="">プライバシー</a>&nbsp;・&nbsp;<a
+                    href="">利用規約</a>&nbsp;・&nbsp;<a href="">サイトマップ</a>&nbsp;・&nbsp;<a href="">企業情報</a>
+            </div>
+            <ul class="d-flex logos">
+                <li><i class="fas fa-globe">&nbsp;日本語(JP)</i></li>&ensp;
+                <li><i class="fas fa-yen-sign">&nbsp;JPY</i></li>&ensp;
+                <li><i class="fab fa-facebook-f"></i></li>&ensp;
+                <li><i class="fab fa-twitter"></i></li>&ensp;
+                <li><i class="fab fa-instagram"></i></li>&ensp;
+            </ul>
+
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
